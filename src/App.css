@@ -1,0 +1,64 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* background-color: #ffffff; */
+  transition: color 0.3s, transform 0.3s !important;
+  text-align: center;
+}
+ul li {
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  top: 64px;
+  right: 15px;
+  left: 15px;
+  transition: all;
+  /* background: rgba(255, 255, 255, 0.445); */
+  background: rgba(0, 0, 0, 0.231);
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  backdrop-filter: blur(9px);
+}
+.menu ul li {
+  color: white;
+  padding: 10px 0 10px 20px;
+  border-radius: 10px;
+  /* text-align: center; */
+  /* margin-bottom: 1px; */
+}
+.menu ul li:hover {
+  /* background: rgba(86, 208, 245, 0.281); */
+  background: #60a5faa0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.menu ul li a:hover {
+  color: black;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.test {
+  background: linear-gradient(
+    to top,
+    rgba(29, 131, 255, 0.281),
+    white,
+    rgba(29, 131, 255, 0.281)
+  ) !important;
+}
+.background {
+  background: linear-gradient(to right, #00aaff, #ffffff);
+}
+.back {
+  /* background: linear-gradient(90deg, #ff7e7e, #add8e6); */
+  /* background: linear-gradient(90deg, #ff7e00, #6a0dad); */
+  background: linear-gradient(90deg, #a1c4fd, #3d5afe);
+  background: linear-gradient(90deg, #6a9955, #b8860b);
+  background: linear-gradient(90deg, #d3d3d3, #696969);
+  background: linear-gradient(90deg, #ffd700, #b22222);
+}
