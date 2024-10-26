@@ -3,7 +3,7 @@ import { valuesContent } from "../../data/home";
 
 const Values = () => {
   return (
-    <section className="values px-5 md:px-12 lg:pt-10 py-40 ">
+    <section className="values font-poppins px-5 md:px-12 lg:pt-10 py-40 ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-10 items-center">
         {valuesContent.map((value) => (
           <div

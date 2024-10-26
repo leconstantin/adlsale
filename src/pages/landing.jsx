@@ -29,7 +29,7 @@ const LandingPage = () => {
           </div>
         </div>
       </article>
-      <main className="">
+      <main className="font-poppins">
         {/* values */}
         <Values />
 

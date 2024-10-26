@@ -9,7 +9,7 @@ const Header = (props) => {
           <Link to={""}>
             <a
               href=""
-              className="font-semibold font-mono uppercase  hover:text-slate-700
+              className="font-semibold font-poppins uppercase  hover:text-slate-700
               "
             >
               Academie
@@ -19,7 +19,7 @@ const Header = (props) => {
           </Link>
         </div>
         <div className={`lg:flex ${props.menu ? "menu" : "hidden"}`}>
-          <ul className="lg:flex gap-x-8 font-medium ">
+          <ul className="lg:flex gap-x-8">
             {props.menu && (
               <div className="bg-white w-full py-2 px-2 text-center rounded-md mb-4">
                 Welcome on our website
@@ -30,7 +30,7 @@ const Header = (props) => {
                 <Link to={link.path} onClick={() => props.handleLink(link.id)}>
                   <a
                     href=""
-                    className={`${
+                    className={`font-poppins ${
                       props.menu ? "px-2" : "text-zinc-700"
                     }  hover:text-sky-500 leading-6
                     ${props.active === link.id ? "text-blue-400" : ""}`}

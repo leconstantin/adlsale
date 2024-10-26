@@ -16,8 +16,8 @@ const TestimonialCard = (props) => {
             className="h-10 w-10 flex-none rounded-full bg-gray-50 object-cover"
           />
           <div className="flex-auto">
-            <div className="font-semibold">{props.name}</div>
-            <div className="text-gray-600">{props.handle}</div>
+            <div className="font-medium">{props.name}</div>
+            <div className="text-zinc-500">{props.handle}</div>
           </div>
         </figcaption>
       </figure>
