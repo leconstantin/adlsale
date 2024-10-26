@@ -7,7 +7,7 @@ const Hero = () => {
       {heroContent.map((content) => (
         <div className="flex flex-col items-center justify-center">
           <div>
-            <p className="mx-auto max-w-5xl text-4xl md:text-6xl font-semibold tracking-tight text-slate-50 text-center">
+            <p className="mx-auto max-w-5xl text-4xl md:text-5xl font-semibold tracking-tight text-slate-50 text-center">
               {content.title}
             </p>
           </div>

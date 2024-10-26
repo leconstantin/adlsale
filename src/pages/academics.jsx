@@ -1,4 +1,5 @@
 import React from "react";
+import { academicFaqs } from "../data/academics";
 
 const Academics = () => {
   return (
@@ -683,11 +684,7 @@ const Academics = () => {
               Extracurricular Academic Enrichment
             </h2>
             <p className="pt-4 text-center lg:w-[70vw] text-slate-600 ">
-              "Engagement beyond the classroom is vital to student growth. Our
-              clubs and societies, such as the Science Olympiad and Debate Team,
-              foster teamwork and critical thinking. We also encourage
-              participation in academic competitions, allowing students to
-              showcase their skills and creativity."
+              Exploring Knowledge Beyond the Classroom
             </p>
           </div>
         </section>
@@ -698,11 +695,7 @@ const Academics = () => {
               Assessment and Evaluation
             </h2>
             <p className="pt-4 text-center lg:w-[70vw] text-slate-600 ">
-              "Assessment at Academie is designed to promote learning and
-              development. We utilize a balanced approach, incorporating
-              formative assessments, standardized tests, and feedback to guide
-              student progress. Parents receive detailed report cards, outlining
-              achievements and areas for improvement."
+              Guiding Learning with Insightful Assessments
             </p>
           </div>
         </section>
@@ -713,9 +706,7 @@ const Academics = () => {
               Academic Calendar
             </h2>
             <p className="pt-4 text-center lg:w-[70vw] text-slate-600 ">
-              "Stay informed with our academic calendar! Key dates include the
-              first day of school, holidays, and testing periods. [Insert link
-              to downloadable PDF calendar]"
+              Planning for Success: Important Dates Ahead
             </p>
           </div>
         </section>
@@ -726,10 +717,7 @@ const Academics = () => {
               Meet Our Educators
             </h2>
             <p className="pt-4 text-center lg:w-[70vw] text-slate-600 ">
-              "Get to know our dedicated educators! Our faculty brings a wealth
-              of experience and passion for teaching. [Include photos and bios
-              of key academic staff, highlighting their expertise and
-              contributions to student success.]"
+              Passionate Educators Committed to Excellence
             </p>
           </div>
         </section>
@@ -740,24 +728,55 @@ const Academics = () => {
               Student Success Stories
             </h2>
             <p className="pt-4 text-center lg:w-[70vw] text-slate-600 ">
-              "Discover the achievements of our students! Read inspiring
-              testimonials from current students and alumni who have thrived at
-              [School Name]. Their stories reflect the impact of our academic
-              programs on their journeys."
+              From Dreams to Reality: Success Stories
             </p>
           </div>
         </section>
 
-        <section className=" px-6 lg:px-14 pt-10 pb-20" id="faqs">
-          <div className="flex flex-col items-center  justify-center pt-16 px-14">
-            <h2 className="font-bold text-3xl lg:text-4xl lg:w-1/2 text-center pt-4">
-              Frequently Asked Questions (FAQs)
-            </h2>
-            <p className="pt-4 text-center lg:w-[70vw] text-slate-600 ">
-              "Have questions? Check out our FAQs for answers to common
-              inquiries about academics, enrollment, and resources. If you don't
-              find what you're looking for, feel free to reach out!"
-            </p>
+        <section id="faqs" className="px-6 md:px-14 pt-20 pb-24">
+          <div className="flex flex-wrap lg:flex-nowrap justify-between gap-x-7 gap-y-16">
+            <div className="md:w-[90%] sm:w-full">
+              <p className="text-base font-semibold text-indigo-500">
+                Frequently asked questions 🙋🏽
+              </p>
+              <h2 className="mt-4 text-4xl font-bold tracking-tight text-zinc-800  xl:text-4xl xl:leading-[3.5rem]">
+                Understanding Our
+                <span className="text-blue-400 block"> Academic Framework</span>
+              </h2>
+            </div>
+            <div className="min-w-[50%] sm:w-full">
+              <h2 className=" text-sm font-semibold leading-7 text-slate-400">
+                General
+              </h2>
+
+              <dl className="mt-2 divide-y divide-slate-100 ">
+                {academicFaqs.map((faq) => (
+                  <details
+                    key={faq.id}
+                    className="group py-4 marker:content-[&#39;&#39;]"
+                  >
+                    <summary className="flex w-full cursor-pointer select-none justify-between items-center gap-x-3 lg:gap-x-3 md:gap-0 text-left text-base font-semibold leading-7 text-slate-900 group-open:text-indigo-600 [&amp;::-webkit-details-marker]:hidden">
+                      <h4>{faq.question}</h4>
+
+                      <svg
+                        class="ml-4 mt-0.5 h-6 w-6 flex-none stroke-slate-700  group-open:stroke-indigo-500"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M18 12H6"></path>
+                        <path className="group-open:hidden" d="M12 6v12"></path>
+                      </svg>
+                    </summary>
+                    <div>
+                      <p>{faq.answer}</p>
+                    </div>
+                  </details>
+                ))}
+              </dl>
+            </div>
           </div>
         </section>
       </main>
