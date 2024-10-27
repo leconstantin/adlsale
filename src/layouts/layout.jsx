@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 const AppLayout = () => {
   const [dark, setDark] = React.useState(false);
   const [menu, setMenu] = React.useState(false);
-  const [active, setactive] = React.useState(1);
+  const [active, setactive] = React.useState(0);
 
   function handleClick() {
     setDark((prev) => !prev);
@@ -15,6 +15,7 @@ const AppLayout = () => {
     setMenu((prev) => !prev);
   }
   function handleLink(id) {
+    setactive("");
     setactive(id);
     setMenu(false);
   }

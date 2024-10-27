@@ -30,7 +30,7 @@ const Hero = () => {
             <Link to={btn.toLink}>
               <a
                 href="#"
-                class="inline-flex items-center justify-center px-4 py-2  font-poppins text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700"
+                class="inline-flex items-center justify-center px-4 py-2  font-poppins text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-transparent hover:text-white focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700"
                 download={btn.download}
               >
                 {btn.left ? btn.text : ""}

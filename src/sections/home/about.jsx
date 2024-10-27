@@ -23,11 +23,11 @@ const About = () => {
                 {article.content}
               </p>
             </div>
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 shadow-xl rounded-md bg-blue-400/75">
               <img
                 src={article.src}
                 alt={article.banner}
-                className="rounded-md"
+                className="rounded-md ring-1 ring-zinc-200 rotate-6 shadow-xl"
                 loading="lazy"
                 title={article.banner}
               />

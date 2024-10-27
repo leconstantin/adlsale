@@ -7,32 +7,32 @@ export const galleryStore = [
     gallery: [
       {
         id: 1,
-        src: "",
+        src: "/school/likes.jpg",
         alt: "",
       },
       {
         id: 2,
-        src: "",
+        src: "/school/bbb.jpg",
         alt: "",
       },
       {
         id: 3,
-        src: "",
+        src: "/school/ccc.jpg",
         alt: "",
       },
       {
         id: 4,
-        src: "",
+        src: "/school/ddd.jpg",
         alt: "",
       },
       {
         id: 5,
-        src: "",
+        src: "/school/eee.jpg",
         alt: "",
       },
       {
         id: 6,
-        src: "",
+        src: "/school/fff.jpg",
         alt: "",
       },
     ],
@@ -45,17 +45,17 @@ export const galleryStore = [
     gallery: [
       {
         id: 1,
-        src: "",
+        src: "/school/ggg.jpg",
         alt: "",
       },
       {
         id: 2,
-        src: "",
+        src: "/school/hhh.jpg",
         alt: "",
       },
       {
         id: 3,
-        src: "",
+        src: "/school/aaa.jpg",
         alt: "",
       },
       {
@@ -113,156 +113,156 @@ export const galleryStore = [
       },
     ],
   },
-  {
-    id: 4,
-    h1: "",
-    h2: "Facilities",
-    p: "Pictures from school events such as sports days, cultural festivals, talent shows, or graduation ceremonies",
-    gallery: [
-      {
-        id: 1,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 2,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 3,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 4,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 5,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 6,
-        src: "",
-        alt: "",
-      },
-    ],
-  },
-  {
-    id: 5,
-    h1: "Community",
-    h2: "Events",
-    p: "Photos from events that involve parents, alumni, or the local community.",
-    gallery: [
-      {
-        id: 1,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 2,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 3,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 4,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 5,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 6,
-        src: "",
-        alt: "",
-      },
-    ],
-  },
-  {
-    id: 6,
-    h1: "Seasonal",
-    h2: "Celebrations",
-    p: "Images from seasonal events such as holiday celebrations, multicultural days, or charity events.",
-    gallery: [
-      {
-        id: 1,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 2,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 3,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 4,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 5,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 6,
-        src: "",
-        alt: "",
-      },
-    ],
-  },
-  {
-    id: 7,
-    h1: "Historical",
-    h2: "Photos",
-    p: "Older photos documenting the school's history, significant milestones, or renovations.",
-    gallery: [
-      {
-        id: 1,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 2,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 3,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 4,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 5,
-        src: "",
-        alt: "",
-      },
-      {
-        id: 6,
-        src: "",
-        alt: "",
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   h1: "",
+  //   h2: "Facilities",
+  //   p: "Pictures from school events such as sports days, cultural festivals, talent shows, or graduation ceremonies",
+  //   gallery: [
+  //     {
+  //       id: 1,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   h1: "Community",
+  //   h2: "Events",
+  //   p: "Photos from events that involve parents, alumni, or the local community.",
+  //   gallery: [
+  //     {
+  //       id: 1,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   h1: "Seasonal",
+  //   h2: "Celebrations",
+  //   p: "Images from seasonal events such as holiday celebrations, multicultural days, or charity events.",
+  //   gallery: [
+  //     {
+  //       id: 1,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 7,
+  //   h1: "Historical",
+  //   h2: "Photos",
+  //   p: "Older photos documenting the school's history, significant milestones, or renovations.",
+  //   gallery: [
+  //     {
+  //       id: 1,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       src: "",
+  //       alt: "",
+  //     },
+  //   ],
+  // },
 ];

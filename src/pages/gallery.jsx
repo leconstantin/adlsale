@@ -5,7 +5,7 @@ const Gallery = () => {
   return (
     <>
       <main className="">
-        <div className="bg-gradient-to-r from-blue-600 via-white to-blue-500 block h-20"></div>
+        <div className="bg-gradient-to-r from-blue-400 via-blue-600 to-blue-500 block h-20"></div>
         {/* photo */}
         {galleryStore.map((article) => (
           <section className="px-6 lg:px-14 pt-10 pb-20" key={article.id}>
@@ -25,7 +25,7 @@ const Gallery = () => {
                   {article.gallery.map((pic) => (
                     <div>
                       <img
-                        class="h-auto max-w-full rounded-lg bg-zinc-200 hover:bg-zinc-300 min-h-52"
+                        class="h-auto max-w-full rounded-lg bg-zinc-200 hover:bg-zinc-300 hover:scale-105 transition-all min-h-52"
                         src={pic.src}
                         alt={pic.alt}
                         title={pic.alt}

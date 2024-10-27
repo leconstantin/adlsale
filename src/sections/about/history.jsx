@@ -17,11 +17,7 @@ const History = () => {
       </div>
       <div className="md:flex lg:flex-row-reverse md:gap-x-5 lg:gap-x-16 gap-y-10 pt-20 ">
         <div className="md:w-1/2 pb-10  md:pb-0">
-          <img
-            src="https://images.stockcake.com/public/5/7/5/5752206f-69c1-433f-95bf-645e7ece243c_large/colorful-science-lab-stockcake.jpg"
-            alt=""
-            className="rounded-md"
-          />
+          <img src="/school/likes.jpg" alt="" className="rounded-md" />
         </div>
         <div className="md:w-1/2">
           <p className="font-medium text-zinc-600 leading-8 text-lg tracking-tight">

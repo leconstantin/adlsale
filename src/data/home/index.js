@@ -33,7 +33,7 @@ export const aboutContent = [
     title: "More about Our home",
     subtitile:
       "It's place where learning transform lives. joins us in shaping a brighter future together.",
-    src: "https://images.stockcake.com/public/5/7/5/5752206f-69c1-433f-95bf-645e7ece243c_large/colorful-science-lab-stockcake.jpg",
+    src: "/school/ccc.jpg",
     banner: "school image",
     content: `Academy De La Salle, founded by Saint Jean-Baptiste de La Salle and
             established by the La Sallian Brothers, is dedicated to fostering
@@ -49,7 +49,7 @@ export const aboutContent = [
 export const programContent = [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "/school/fff.jpg",
     alt: "school in community",
     title: "Debate and Public Speaking",
     subtitile:
@@ -57,7 +57,7 @@ export const programContent = [
   },
   {
     id: 2,
-    src: "https://plus.unsplash.com/premium_photo-1681760172604-7d7dbe2a182f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "/school/likes.jpg",
     alt: "school in community",
     title: "Entrepreneurship Initiatives",
     subtitile:
@@ -65,7 +65,7 @@ export const programContent = [
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1585483266669-f9ff856159ad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "/school/bbb.jpg",
     alt: "school in community",
     title: "Outdoor Education",
     subtitile:

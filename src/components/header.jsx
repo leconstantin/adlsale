@@ -31,9 +31,14 @@ const Header = (props) => {
                   <a
                     href=""
                     className={`font-poppins ${
-                      props.menu ? "px-2" : "text-zinc-700"
+                      props.menu ? "px-2" : ""
                     }  hover:text-sky-500 leading-6
-                    ${props.active === link.id ? "text-blue-400" : ""}`}
+                    ${
+                      props.active === link.id
+                        ? "text-blue-400"
+                        : "text-zinc-700"
+                    }
+                    `}
                   >
                     {link.label}
                   </a>
