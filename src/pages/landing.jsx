@@ -37,7 +37,7 @@ const LandingPage = () => {
           <div class="absolute inset-0 bg-black opacity-55"></div>
 
           <div className="relative z-10 ">
-            <div className="absolute right-4  top-2 ">
+            <div className="absolute right-4  top-4 ">
               <a
                 href=""
                 className="ring-1 ring-white  p-2 rounded-full h-10 w-10 flex items-center justify-center cursor-pointer"

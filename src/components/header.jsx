@@ -36,7 +36,7 @@ const Header = (props) => {
                     ${
                       props.active === link.id
                         ? "text-blue-400"
-                        : "text-zinc-700"
+                        : "text-white md:text-zinc-700"
                     }
                     `}
                   >
